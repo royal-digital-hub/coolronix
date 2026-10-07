@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+3:I[87114,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js","/_next/static/chunks/2w8d8kcn8tbgf.js"],"ServiceDetailPage"]
+4:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js"],"ViewportBoundary"]
+a:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js"],"MetadataBoundary"]
+2:T74c,[{"@context":"https://schema.org","@type":"Service","@id":"https://coolronix.in/services/ac-gas-refill#service","name":"AC Gas Refill","description":"Gas refill and charging service for AC systems that require it.","url":"https://coolronix.in/services/ac-gas-refill","serviceType":"AC Gas Refill","provider":{"@type":"HVACBusiness","@id":"https://coolronix.in/#business","name":"Coolronix","telephone":"+919392873096","url":"https://coolronix.in"},"warranty":"Gas charging: 60 days warranty","areaServed":{"@type":"City","name":"Hyderabad"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://coolronix.in"},{"@type":"ListItem","position":2,"name":"Services","item":"https://coolronix.in/services"},{"@type":"ListItem","position":3,"name":"AC Gas Refill","item":"https://coolronix.in/services/ac-gas-refill"}]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I know if my AC truly needs gas refill?","acceptedAnswer":{"@type":"Answer","text":"Tell-tale signs include ice/frost accumulation on the thin copper line, warm airflow from vents despite the compressor running, and a hissing noise. A proper pressure gauge check by Coolronix confirms the exact PSI."}},{"@type":"Question","name":"Is it dangerous to recharge AC gas without fixing leaks?","acceptedAnswer":{"@type":"Answer","text":"Yes. Adding gas without fixing leaks wastes your money, harms cooling efficiency, and can cause the compressor to burn out due to lack of returning refrigerant oil."}},{"@type":"Question","name":"What types of refrigerants does Coolronix handle in Hyderabad?","acceptedAnswer":{"@type":"Answer","text":"We handle R32 (eco-friendly standard in modern inverters), R410A (twin-rotary inverters), and R22 (older non-inverter systems)."}}]}]8:X
+11:X
+11:C
+0:{"buildId":"Zovgjt5r185BA5n26YLCQ","data":[{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{"slug":"ac-gas-refill"}]],[["$","script","script-0",{"src":"/_next/static/chunks/2w8d8kcn8tbgf.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"AC Gas Refill in Hyderabad | Coolronix"}],["$","meta","1",{"name":"description","content":"Gas refill and charging service for AC systems that require it. Professional on-site service across Hyderabad by Coolronix. Call 093928 73096."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","link","3",{"rel":"canonical","href":"https://coolronix.in/services/ac-gas-refill"}],["$","meta","4",{"property":"og:title","content":"Coolronix | AC Repair & Services in Hyderabad"}],["$","meta","5",{"property":"og:description","content":"AC repair, gas refill, installation and maintenance services in Hyderabad."}],["$","meta","6",{"property":"og:url","content":"https://coolronix.in"}],["$","meta","7",{"property":"og:site_name","content":"Coolronix"}],["$","meta","8",{"property":"og:locale","content":"en_IN"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Coolronix | AC Repair & Services in Hyderabad"}],["$","meta","12",{"name":"twitter:description","content":"AC repair, gas refill, installation and maintenance services in Hyderabad."}],"$Lb","$Lc","$Ld"]}]}]}],null]}],"isPartial":"$@e","staleTime":"$8","varyParams":null},{"rsc":"$Lf","isPartial":"$@10","staleTime":"$8","varyParams":"$11"},{"rsc":"$L12","isPartial":"$@13","staleTime":"$8","varyParams":"$11"}],"isUpgradeableISRFallback":false,"a":"$@14","rootVaryParams":null,"needsRuntimeRequest":"$@15"}
+16:I[27201,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js"],"IconMark"]
+17:I[39756,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js"],"default"]
+18:I[37457,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/2uzbm9pxvmi42.js"],"default"]
+6:null
+b:["$","link","13",{"rel":"icon","href":"/logo/coolronix-favicon.png"}]
+c:["$","link","14",{"rel":"apple-touch-icon","href":"/logo/coolronix-favicon.png"}]
+d:["$","$L16","15",{}]
+f:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+12:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+15:true
+8:300
+8:C
+14:0
+e:"$undefined"
+10:"$undefined"
+13:"$undefined"
+7:"$undefined"
