@@ -1,8 +1,9 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { FloatingContactButtons } from '@/components/FloatingContactButtons';
+import { MobileBottomBar } from '@/components/MobileBottomBar';
 import { BUSINESS_INFO } from '@/data/servicesData';
 import '../index.css';
 
@@ -75,7 +76,7 @@ const businessSchema = {
       closes: '21:00',
     },
   ],
-  priceRange: '₹₹',
+  priceRange: 'â‚¹â‚¹',
 };
 
 export default function RootLayout({
@@ -93,8 +94,10 @@ export default function RootLayout({
           <main className="grow">{children}</main>
           <Footer />
           <FloatingContactButtons />
+          <MobileBottomBar />
         </div>
       </body>
     </html>
   );
 }
+

@@ -44,3 +44,291 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #94A3B8;
 }
+
+/* =========================================================
+   COOLRONIX MOBILE BOTTOM BAR
+   ========================================================= */
+
+.coolronix-mobile-bar {
+  display: none;
+}
+
+.coolronix-popup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(3, 13, 30, 0.68);
+  backdrop-filter: blur(4px);
+  padding: 0;
+}
+
+.coolronix-popup {
+  width: 100%;
+  max-width: 620px;
+  max-height: 88vh;
+  overflow-y: auto;
+  background: #ffffff;
+  border-radius: 24px 24px 0 0;
+  box-shadow: 0 -10px 40px rgba(0,0,0,.25);
+  padding: 22px 18px 28px;
+  animation: coolronixSlideUp .25s ease-out;
+}
+
+@keyframes coolronixSlideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.coolronix-popup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.coolronix-popup-eyebrow {
+  margin: 0 0 4px;
+  color: #1b73e8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.coolronix-popup-header h2 {
+  margin: 0;
+  color: #07152e;
+  font-size: 23px;
+  line-height: 1.2;
+}
+
+.coolronix-popup-close {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: #eef3f8;
+  color: #07152e;
+  cursor: pointer;
+}
+
+.coolronix-popup-close svg {
+  width: 19px;
+  height: 19px;
+}
+
+.coolronix-service-list {
+  display: grid;
+  gap: 9px;
+}
+
+.coolronix-service-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 14px;
+  border: 1px solid #e5eaf0;
+  border-radius: 12px;
+  color: #07152e;
+  background: #f9fbfd;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.coolronix-service-item svg {
+  width: 18px;
+  color: #1b73e8;
+}
+
+.coolronix-area-intro {
+  margin: 0 0 16px;
+  color: #536174;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.coolronix-area-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.coolronix-area-chip {
+  padding: 10px 9px;
+  border-radius: 9px;
+  background: #f2f6fa;
+  color: #17243a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.coolronix-surrounding {
+  margin-top: 18px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #07152e;
+  color: #ffffff;
+}
+
+.coolronix-surrounding strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.coolronix-surrounding p {
+  margin: 0;
+  color: #d9e4f3;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.coolronix-booking-form {
+  display: grid;
+  gap: 12px;
+}
+
+.coolronix-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.coolronix-booking-form input,
+.coolronix-booking-form select,
+.coolronix-booking-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d8e0e9;
+  border-radius: 10px;
+  padding: 12px 13px;
+  background: #fff;
+  color: #07152e;
+  font: inherit;
+  font-size: 14px;
+  outline: none;
+}
+
+.coolronix-booking-form input:focus,
+.coolronix-booking-form select:focus,
+.coolronix-booking-form textarea:focus {
+  border-color: #1b73e8;
+  box-shadow: 0 0 0 3px rgba(27,115,232,.10);
+}
+
+.coolronix-book-submit {
+  border: 0;
+  border-radius: 11px;
+  padding: 14px 16px;
+  background: #25D366;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.coolronix-form-note {
+  margin: 0;
+  text-align: center;
+  color: #687588;
+  font-size: 12px;
+}
+
+/* Mobile only */
+@media (max-width: 767px) {
+  .coolronix-mobile-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 68px;
+    padding: 5px 4px calc(5px + env(safe-area-inset-bottom));
+    background: #07152e;
+    border-top: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 -5px 20px rgba(0,0,0,.18);
+  }
+
+  .coolronix-mobile-action {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font: inherit;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .coolronix-mobile-action svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .coolronix-mobile-action:active {
+    transform: scale(.94);
+  }
+
+  .coolronix-book-action {
+    color: #F5B719;
+  }
+
+  body {
+    padding-bottom: 72px;
+  }
+
+  .coolronix-popup {
+    padding-bottom: calc(24px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 430px) {
+  .coolronix-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Hide old floating contact buttons on mobile because the new bar replaces them */
+@media (max-width: 767px) {
+  #floating-contact-actions {
+    display: none !important;
+  }
+}
+
+/* FORCE COOLRONIX MOBILE BAR */
+@media (max-width: 1024px) {
+  .coolronix-mobile-bar {
+    position: fixed !important;
+    display: grid !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 68px !important;
+    z-index: 99999 !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    background: #07152e !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
